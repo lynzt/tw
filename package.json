@@ -7,8 +7,11 @@
     "normalize": "node ./lib/normalize.js"
   },
   "dependencies": {
+    "csv-stringify": "^5.0.0",
+    "csv-parse": "^4.0.1",
     "moment": "^2.22",
-    "moment-timezone": "^0.5.23"
+    "moment-timezone": "^0.5.23",
+    "stream-transform": "^1.0.7"
   },
   "devDependencies": {
     "chai": "^4.0.0",

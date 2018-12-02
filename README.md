@@ -8,5 +8,8 @@ Truss, [check out our jobs page](https://truss.works/jobs)._
 docker build -t node/truss .
 
 ## run tests
+docker run -it -v {$PWD}:/usr/src/app -v /usr/src/app/node_modules --rm node/truss npm test
 
 ## run normalize script
+docker run -it -v {$PWD}:/usr/src/app -v /usr/src/app/node_modules --rm node/truss npm run normalize
+

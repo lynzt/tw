@@ -1,0 +1,19 @@
+{
+  "name": "tw",
+  "version": "0.0.1",
+  "description": "_This is one of the steps in the Truss interview process.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "moment": "^2.22",
+    "moment-timezone": "^0.5.23"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^5.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

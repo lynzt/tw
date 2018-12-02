@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "_This is one of the steps in the Truss interview process.",
   "scripts": {
-    "test": "mocha $(find test -path '*_tests.js') --exit"
+    "test": "mocha $(find test -path '*_tests.js') --exit",
+    "normalize": "node ./lib/normalize.js"
   },
   "dependencies": {
     "moment": "^2.22",

@@ -2,7 +2,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const utils = require('./../utils');
+const utils = require('./../lib/utils');
 
 describe('test helper functions in utils', function() {
   describe('test formatMonthDayYeartime', function() {

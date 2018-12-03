@@ -35,15 +35,15 @@ describe('test helper functions in utils', function() {
       expect(utils.convertToUppercase('AbC123')).to.equal('ABC123');
       expect(utils.convertToUppercase('\u0434\u0430')).to.equal('ДА');
       expect(utils.convertToUppercase('août')).to.equal('AOÛT');
-    })
-  })
+    });
+  });
 
   describe('test convertTimeToSec', function() {
     it('should convert HH:MM:SS.MS to float of seconds', function() {
       expect(utils.convertTimeToSec('1:23:32.123')).to.equal(5012.123);
       expect(utils.convertTimeToSec('0:0:0.0')).to.equal(0);
       expect(utils.convertTimeToSec('111:23:32.123')).to.equal(401012.123);
-    })
-  })
+    });
+  });
 
-})
+});
